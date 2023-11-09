@@ -1,7 +1,7 @@
 services:
   cpu:
-    image: osrf/ros:humble-desktop
+    image: packbionics/packbionics-ws:dev
     container_name: humble-desktop
     network_mode: host
     volumes:
-      - /home/anthony/packbionics-ws/src/:/home/packbionics-ws/src/
+      - ${HOME}/packbionics-ws/src/:/home/packbionics-ws/src/
