@@ -1,0 +1,5 @@
+services:
+  dev-env:
+    image: packbionics/packbionics-ws:dev
+    container_name: humble_dev_env
+    network_mode: host

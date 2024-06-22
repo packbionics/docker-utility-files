@@ -1,7 +1,0 @@
-services:
-  cpu:
-    image: packbionics/packbionics-ws:dev
-    container_name: humble-desktop
-    network_mode: host
-    volumes:
-      - ${HOME}/packbionics-ws/src/:/home/packbionics-ws/src/
