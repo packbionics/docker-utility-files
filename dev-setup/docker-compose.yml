@@ -3,3 +3,5 @@ services:
     image: packbionics/packbionics-ws:dev
     container_name: humble_dev_env
     network_mode: host
+    volumes:
+      - ./src/:/home/packbionics/src/
